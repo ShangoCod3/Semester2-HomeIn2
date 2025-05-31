@@ -79,7 +79,7 @@ html, body {
   display: flex;
   gap: 12px; /* space between buttons */
   margin-top: 16px; /* optional spacing */
-  padding: 50px 
+  padding: 50px 50px 50px 
 }
 
 .button-row .home, .button-row .next {
