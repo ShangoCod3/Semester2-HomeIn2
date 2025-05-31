@@ -79,12 +79,12 @@ html, body {
   display: flex;
   gap: 12px; /* space between buttons */
   margin-top: 16px; /* optional spacing */
-  padding: 50px 50px 50px 
+  
 }
 
 .button-row .home, .button-row .next {
   /* Optional: add padding, background, border, etc. for button styling */
-  padding: 8px 16px;
+  padding: 8px 16px padding: 50px 50px 50px ;
   text-decoration: none;
   background: #1976d2;
   color: #fff;
