@@ -69,22 +69,21 @@ a:hover {
   margin: 40px auto
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.home {
+  display: block;
+  width: fit-content;
+  margin: 40px auto
 }
 
 .button-row {
   display: flex;
   gap: 12px; /* space between buttons */
   margin-top: 16px; /* optional spacing */
-  
 }
 
 .button-row .home, .button-row .next {
   /* Optional: add padding, background, border, etc. for button styling */
-  padding: 8px 16px padding: 50px 50px 50px ;
+  padding: 8px 16px;
   text-decoration: none;
   background: #1976d2;
   color: #fff;
@@ -95,6 +94,12 @@ html, body {
 
 .button-row .home:hover, .button-row .next:hover {
   background: #0d47a1;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   min-height: 100vh;
@@ -112,5 +117,4 @@ footer {
   padding: 1em 0;
   background: #222;
   color: #fff;
-}
 }
