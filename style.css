@@ -66,9 +66,8 @@ a:hover {
 .next {
   display: block;
   width: fit-content;
-  margin: 40px auto
+  margin: 40px auto;
 }
-
 
 .button-row {
   display: flex;
